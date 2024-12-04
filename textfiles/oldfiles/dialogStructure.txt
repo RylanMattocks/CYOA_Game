@@ -1,0 +1,344 @@
+Dialog: intro
+Option: path 1 choice
+Option:	path 2 choice
+Option: path 3 choice
+Dialog: path 1
+Option: path 1A choice
+Option:	path 1B choice
+Option: path 1C choice
+Dialog: path 2
+Option: path 2A choice
+Option: path 2B choice
+Option: path 2C choice
+Dialog: Path 3
+Option: path 3A choice
+Option: path 3B choice
+Option: path 3C choice
+Dialog: path 1A
+Option:
+Option:
+Option:
+Dialog: path 1B
+Option:
+Option:
+Option:
+Dialog: path 1C
+Option:
+Option:
+Option:
+Dialog: path 2A
+Option:
+Option:
+Option:
+Dialog: path 2B
+Option:
+Option:
+Option:
+Dialog: path 2C
+Option:
+Option:
+Option:
+Dialog: path 3A
+Option:
+Option:
+Option:
+Dialog: path 3B
+Option:
+Option:
+Option:
+Dialog: path 3C
+Option:
+Option:
+Option:
+Dialog: path 1ai
+Option:
+Option:
+Option:
+Dialog: path 1aii
+Option:
+Option:
+Option:
+Dialog: path 1aiiiNO
+Option:
+Option:
+Option:
+Dialog: path 1aiiiYES
+Option:
+Option:
+Option:
+Dialog: path 1bi
+Option:
+Option:
+Option:
+Dialog: path 1bii
+Option:
+Option:
+Option:
+Dialog: path 1biii
+Option:
+Option:
+Option:
+Dialog: path 2ai
+Option:
+Option:
+Option:
+Dialog: path 2aii
+Option:
+Option:
+Option:
+Dialog: path 2aiii
+Option:
+Option:
+Option:
+Dialog: path 2bi
+Option:
+Option:
+Option:
+Dialog: path 2bii
+Option:
+Option:
+Option:
+Dialog: path 2biii
+Option:
+Option:
+Option:
+Dialog: path 2ci
+Option:
+Option:
+Option:
+Dialog: path 2cii
+Option:
+Option:
+Option:
+Dialog: path 2ciii
+Option:
+Option:
+Option:
+Dialog: path 3ci
+Option:
+Option:
+Option:
+Dialog: path 3cii
+Option:
+Option:
+Option:
+Dialog: path 3ciii
+Option:
+Option:
+Option:
+Dialog: path 1bia
+Option:
+Option:
+Option:
+Dialog: path 1bib
+Option:
+Option:
+Option:
+Dialog: path 1bic
+Option:
+Option:
+Option:
+Dialog: path 2bia
+Option:
+Option:
+Option:
+Dialog: path 2bib
+Option:
+Option:
+Option:
+Dialog: path 2biiia
+Option:
+Option:
+Option:
+Dialog: path 2biiib
+Option:
+Option:
+Option:
+Dialog: path 2biiic
+Option:
+Option:
+Option:
+Dialog: path 2cia
+Option:
+Option:
+Option:
+Dialog: path 2cib
+Option:
+Option:
+Option:
+Dialog: path 2ciiia
+Option:
+Option:
+Option:
+Dialog: path 2ciiib
+Option:
+Option:
+Option:
+Dialog: path 3cia
+Option:
+Option:
+Option:
+Dialog: path 3cib
+Option:
+Option:
+Option:
+Dialog: path 3cic
+Option:
+Option:
+Option:
+Dialog: path 3cii
+Option:
+Option:
+Option:
+Dialog: path 3ciiia
+Option:
+Option:
+Option:
+Dialog: path 3ciiib
+Option:
+Option:
+Option:
+Dialog: path 3ciiic
+Option:
+Option:
+Option:
+Dialog: path 1bicx
+Option:
+Option:
+Option:
+Dialog: path 1bicy
+Option:
+Option:
+Option:
+Dialog: path 1bicz
+Option:
+Option:
+Option:
+Dialog: path 2biax
+Option:
+Option:
+Option:
+Dialog: path 2biay
+Option:
+Option:
+Option:
+Dialog: path 2biaz
+Option:
+Option:
+Option:
+Dialog: path 2bibx
+Option:
+Option:
+Option:
+Dialog: path 2biby
+Option:
+Option:
+Option:
+Dialog: path 2ciiibxNO
+Option:
+Option:
+Option:
+Dialog: path 2ciiibxYES
+Option:
+Option:
+Option:
+Dialog: path 2ciiiby
+Option:
+Option:
+Option:
+Dialog: path 3ciax
+Option:
+Option:
+Option:
+Dialog: path 3ciay
+Option:
+Option:
+Option:
+Dialog: path 3cibx
+Option:
+Option:
+Option:
+Dialog: path 3ciby
+Option:
+Option:
+Option:
+Dialog: path 3cibzLOW
+Option:
+Option:
+Option:
+Dialog: path 3cibzHIGH
+Option:
+Option:
+Option:
+Dialog: path 3cicx
+Option:
+Option:
+Option:
+Dialog: path 3cicy
+Option:
+Option:
+Option:
+Dialog: path 3ciiiax
+Option:
+Option:
+Option:
+Dialog: path 3ciiiay
+Option:
+Option:
+Option:
+Dialog: path 3ciiibx
+Option:
+Option:
+Option:
+Dialog: path 3ciiiby
+Option:
+Option:
+Option:
+Dialog: path 3ciiibz
+Option:
+Option:
+Option:
+Dialog: path 3ciiicx
+Option:
+Option:
+Option:
+Dialog: path 3ciiicy
+Option:
+Option:
+Option:
+Dialog: path 2bibxaa
+Option:
+Option:
+Option:
+Dialog: path 2bibxbb
+Option:
+Option:
+Option:
+Dialog: path 3ciayaa
+Option:
+Option:
+Option:
+Dialog: path 3ciaybb
+Option:
+Option:
+Option:
+Dialog: path 3ciaycc
+Option:
+Option:
+Option:
+Dialog: path 3ciiiaxaa
+Option:
+Option:
+Option:
+Dialog: path 3ciiiaxbb
+Option:
+Option:
+Option:
+Dialog: path 3ciiibzaa
+Option:
+Option:
+Option:
+Dialog: path 3ciiibzbb
+Option:
+Option:
+Option:

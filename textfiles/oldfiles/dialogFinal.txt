@@ -1,0 +1,323 @@
+Dialog: You wake up in an unknown city. It looks to be abandoned recently. You cannot see anyone around.
+Option: Search the nearby buildings
+Option: Scream for help
+Option: Search your bag
+
+Dialog: You enter a nearby building. You look around the room.
+Option: Quietly search the building
+Option: Ask if anyone is home
+Option: Ransack the place
+
+Dialog: You scream as loud as you can, but only hear your echo in return. As your voice echoes down the street you see a flock of birds fly off.
+Option: Go to where you saw the birds
+Option: Begin walking around the city
+Option: Leave the city
+
+Dialog: You pick up your bag and begin searching through it. A few items stand out to you. You see a lighter, a book and dice, and an ocarina.
+Option: Put the items back in the bag and search the nearby buildings
+Option: Put the items back in the bag and scream for help
+Option: Pick up the book
+
+Dialog: While searching the building you find a knife and food. You put them in your bag and leave the building. As you exit the building you notice it is starting to get dark.
+Option: Head back inside
+Option: Continue searching the city
+Option: Leave the city
+
+Dialog: You call out as you step into the house asking if anyone is there. You hear rustling in a back room.
+Option: Leave the house
+Option: Investigate the noise
+Option: Ignore the noise and search the house
+
+Dialog: You begin quickly rummaging through the house. In an attempt to be quick, you accidentally knock a vase off a shelf and are knocked unconcious. You eventually succumb to the darkness.
+Option: DEATH
+
+Dialog: You walk down the street to where you saw the birds. You see some discarded food on the ground the birds were eating. As you stand there your stomach rumbles.
+Option: Pick up the food and eat it
+Option: Search nearby
+Option: Walk towards where the birds flew off
+
+Dialog: You begin walking around the town without any real purpose. After some time you find yourself back where you started. You notice the sun is beginning to set.
+Option: Backtrack your steps
+Option: Leave the city
+Option: Lie down
+
+Dialog: The silence makes you feel uneasy as you walk towards the edge of town. You reach the edge around sunset.
+Option: Enter the wilderness
+Option: Search nearby
+Option: Go back
+
+Dialog: path 3A (get options)
+Option:
+Option:
+Option:
+Dialog: path 3B (get options)
+Option:
+Option:
+Option:
+
+Dialog: You grab the book from your bag. You try to read the title but it has been faded. You can make out the following: "Ne_r__a_c_ _f T_ay". You also notice a slip of paper sticking out from one of the pages.
+Option: Grap the slip of paper
+Option: Read the book
+Option: Leave the book behind
+
+Dialog: You head back into the building for the night. The darkness envelops you over night.
+Option: DEATH
+
+Dialog: You continue trying to search the city, but cannot find anything. As you are walking you hear a whisper in your ear. You are startled and drop your bag as you run out of the city. The sun sets and you are enveloped in darkness.
+Option: DEATH
+
+Dialog: The city feels uneasy to you and you decide to leave. You eat the food you found, but as the sun sets you are engulfed in darkness.
+Option: DEATH
+Dialog: The city feels uneasy to you and you decide to leave. You remember you have a lighter. You make a fire and eat the food you found. You decide to stay there for the night.
+Option: LIVE
+
+Dialog: You are startled by the rustling and quickly leave the house. As you step outside you see a vehicle driving on the road.
+Option: Jump in front of the car
+Option: Wave down the car
+Option: Let it pass
+
+Dialog: You proceed to the back of the house to search for the noise. As you open the back door you are attacked by an animal causing you to fall unconcious. You eventually succumb to the darkness.
+Option: DEATH
+
+Dialog: path 1biii (points to diff place)
+Option:
+Option:
+Option:
+
+
+Dialog: You pick up the food and begin to eat it. Your body instantly rejects it. You begin to vomit and pass out. You eventually succumb to the darkness.
+Option: DEATH
+
+Dialog: You try searching the area, but all the doors seem to be locked. While searching you realize you have gotten lost. The sun sets and you are enveloped in darkness.
+Option: DEATH
+
+Dialog: You start to walk in the direction the birds flew. While trying to follow them your stomach growls more and more until you pass out. You eventually succumb to the darkness.
+Option: DEATH
+
+Dialog: You begin retracing your steps as you start to see a familiar place. It is an old creepy shack.
+Option: Enter the shack
+Option: Keep Walking
+
+Dialog: You begin walking towards the edge of the city, but the sun looks like it is setting faster than normal. You begin to sprint in hopes of reaching the edge of the city before nightfall. Just as you reach the edge of the city the sun fully sets and you are engulfed in darkness.
+Option: DEATH
+
+Dialog: You lie down and try to think of how you ended up here. You begin to think of what you were doing before you woke up here.
+Option: Meditate
+Option: Continue thinking
+Option: Fall asleep
+
+Dialog: You proceed out of the town and into the woods. You get lost in the woods, but hear a faint tune.
+Option: Stay and rest
+Option: Follow the sound
+
+Dialog: You try and search the nearby buildings. Nothing is open and you cannot find anything useful. You eventually succumb to the darkness.
+Option: DEATH
+
+Dialog: You think your decision to leave town was too hasty. You turn around and start walking in the direction you came from.
+Option: Turn back again
+Option: Search nearby
+
+Dialog: You pull the slip from the book. It reads: "Dear {user}: Please come to the bakery. I've baked a cake for you. Yours truly-- P
+Option: Go to the bakery
+Option: Ignore the note and read the book
+Option: Search the city
+
+Dialog: You ignore the slip of paper. You open the book and begin to read. The words are unrecognizable to you. You see the dice begin to shake and feel as if something is pulling at your mind.
+Option: ?
+Option: ?
+Option: ?
+
+
+Dialog: Unsure of the nature of the book you choose to leave it behind. You but the other items back in your bag and begin to look around the city.
+Option: Go back for the book
+Option: Search nearby
+Option: Look for landmarks
+
+
+Dialog: You jump out in front of the car in an attempt to make it stop. The cars speed does not change and you are hit. You are knocked out and eventually succumb to the darkness.
+Option: DEATH
+
+Dialog: You move away from the house and try to wave down the car. The car looks to slightly turn towards you. Before you have any time to react you are hit. You are knocked out and eventually succumb to the darkness.
+Option: DEATH
+
+Dialog: You crouch behind some bushes in an attempt to let the car pass. The cars begins to slow down and turns into the garage of the house you were just in. You see the driver begin to get out of the car. He is wearing what appears to be a spacesuit.
+Option: Talk to the driver
+Option: Wait
+Option: Attack the driver
+
+
+Dialog: You enter the shack and the floors creek. You feel an eerie aura about the place.
+Option: Go down the stairs
+Option: Pick up a lamp
+Option: Leave
+
+Dialog: You continue walking and see another familiar place. It looks like a high tech police station. More advanced than any you have seen before.
+Option: Enter
+Option: Leave
+
+Dialog: You start to meditate. You fall into a deep meditation and all of the answers you are looking for become clear. It is as if you hold all the answers to the world. Your eyes open and your mind is clear. You know what you must do.
+Option: LIVE
+
+Dialog: You focus hard on what you were doing before you got here. You remeber you were connecting to a dream machine. After you realize this, you begin to freely manipulate the world around you. You then feel as if you are falling and wake up in reality.
+Option: LIVE
+
+Dialog: You shut your eyes. Confused and tired you try to fall asleep. You eventually succumb to the darkness.
+Option: DEATH
+
+Dialog: Frustrated and tired, you sit down and try to rest. You eventually succumb to the darkness.
+Option: DEATH
+
+Dialog: You start going towards the tune. As you are following it, the melody suddenly sounds like it is coming from a different direction. You continue following the tune as it slowly gets louder, almost as if it is guiding you through the woods. You are eventually greeted by someone named Saria who is playing the music and offered a safe place to stay.
+Option: LIVE
+
+Dialog: You can't decide which action is right. You pace back and forth trying to decide which path to choose. Eventually you pass out from exhausting and succumb to the darkness.
+Option: DEATH
+
+
+Dialog: You make your way back into the city. In an attempt to find a place to stay for the night you begin searching the buildings. You see a door with a faded image on it. You can make out what looks to be an arrow pointing left and a circle around it.
+Option: Enter the door
+Option: Leave
+
+
+Dialog: You see the bakery not too far away. You go to the bakery and find yourself in front of the door.
+Option: Enter the bakery
+Option: Search the area
+
+Dialog: You feel wary of the note and decide to ignore it. Placing the note back in the book, you open the first page and begin to read. The words are unrecognizable to you. You see the dice begin to shake and feel as if something is pulling at your mind.
+Option: Give in to the sensation
+Option: Fight the sensation
+Option: Roll the dice
+
+
+Dialog: You feel wary of the note. You see the bakery and begin to head in the opposite direction. As you are walking you find yourself at a park.
+Option: Enter the park
+Option: Go to the information building
+
+Dialog: You think leaving the book was a bad decision. You go back to look for the book only to find it is missing. Upon further inspection, you notice a faint outline of where you had left the book.
+Option: Search for the book
+Option: Yell for someone
+
+
+Dialog: You begin to search the nearby buildings. A small part of your mind almost hoping you come back across the book. You enter a very large building almost resembling a school.
+Option: Go to the library
+Option: Go to the cafeteria
+Option: Go to the admin offices
+
+
+Dialog: You look around the city for anything recognizable. In the distance you see a building that looks to be significantly taller than the rest.
+Option: Go to the building
+Option: Leave the city
+
+
+Dialog: You try to get the drivers attention by talking to them. Startled, the driver looks around and quickly captures you.
+Option: DEATH
+
+Dialog: You wait for the driver to leave the vehicle. Out of the corner of their eye you are spotted. The quickly subdue you.
+Option: DEATH
+
+Dialog: You quickly attack the driver while he is getting out. You push them into the door and they are knocked out. You get in the car and leave the city.
+Option: LIVE
+
+Dialog: You make your way down the stairs. Once you reach the bottom you see some sort of bomb shelter stocked with plenty of resources. You decide to stay there for the night.
+Option: LIVE
+
+Dialog: You pick up the oil lamp and attempt to dust it off. Like a scene from a movie a genie begins to come out of the lamp. Althought instead of wishes the genie says the lamp must always have someone in it. You are then sucked into the lamp with only a hope someone will free you.
+Option: DEATH
+
+Dialog: You turn around to leave, but you feel something try to grab your shoulder. You quickly turn to see what it was. The floorboard breaks and you fall down the stairs getting knocked unconcious. You eventually succumb to the darkness.
+Option: DEATH
+
+Dialog: You begin walking towards the police station. After a few steps, an automated defense system begins to activate.
+Option: Continue walking
+Option: Leave
+
+Dialog: As you keep walking you see the same places over and over again. You have been walking in circles. You eventually pass out from exhaustion and succumb to the darkness.
+Option: DEATH
+
+Dialog: You attempt to enter the door but it is locked. You leave but can't seem to find anything else. You are engulfed in darkness.
+Option: DEATH
+
+Dialog: You feel an urge to pull out your ocarina. As you begin to play it the door opens and you are blinded by a bright light. You see all your decisions you have made begin to move around you as if fading from your memory. Your vision then goes dark.
+Option: LIVE (restart)
+
+Dialog: You leave the area in search for something else. As you look around nothing seems to be open. You are slowly enveloped in darkness.
+Option: DEATH
+
+Dialog: You enter the bakery in hopes of seeing your secret admirer P with a cake. Upon entering the building the doors slam shut and lock behind you. There is not cake, it was all a lie.
+Option: DEATH
+
+Dialog: You search the area to see if you can spot anything suspicious. Nothing seems to be out of the ordinary, but you feel some sort of presence pulling you towards the bakery.
+Option: Enter the bakery
+Option: Go around back
+Option: Leave
+
+Dialog: You let the sensation into your mind. The text within the book begins to flow into your mind. There is so much information flooding your mind that you are unable to act. The information is too much for one mind and you slowly go insane.
+Option: DEATH
+
+Dialog: You try to fight the sensation and shut the book. As you close the book the title begins to glow as if revealing itself to you. "The Necromancy of Thay". The book then flings open and you are absorbed into the book to become its puppet.
+Option: DEATH
+
+Dialog: You take the dice and roll them. As they come to a stop they raise slowly almost as if they are unhappy with the result. They show you what you rolled {randInt}. The book slams closed and you teleport out of the city with the book in hand. You can feel its power and have full control over it.
+Option: LIVE
+
+Dialog: You take the dice and roll them. As they come to a stop they quickly raise up as if they are happy with your result. They show you what you rolled {randInt}. The book flings open and the pages rapidly begin to turn. You get absorbed into the book to become its puppet.
+Option: DEATH
+
+Dialog: You enter the park and admire the scenery. It looks so beautiful that you don't want to leave. You decide this is the perfect place to rest. As night falls you succumb to the darkness.
+Option: DEATH
+
+Dialog: You head into the information building. Inside you find a map of the city and surrounding area. Using the map you make your way out of the city and to a safe location. You use your lighter to make a fire and camp out for the night.
+Option: LIVE
+
+Dialog: You search around for the book and you think you see something out of the corner of your eye. You walk over and start to hear groaning around the corner.
+Option: Investigate further
+Option: Leave
+
+Dialog: You yell out into the city to try to find whoever took the book. Seconds later you are swarmed and surrounded by an army of necrotic creatures and are consumed by the book.
+Option: DEATH
+
+Dialog: You head to the library and notice the book open and floating in the center of the room. The pages begin to rapidly turn and you are absorbed by the book.
+Option: DEATH
+
+Dialog: You head to the cafeteria in an effort to find food and water. When you arrive you cannot believe how much food and water there is. You decide that you will stay here for the night.
+Option: LIVE
+
+Dialog: You head towards the administration offices. When you arrive you enter the door. Inside the room you notice it is filled with televisions. In the center is a man sitting in a chair. He introduces himself as the architect and explains to you that this world and everything you have ever known is a simulation.
+Option: Leave the simulation
+Option: Reset the simulation
+
+
+Dialog: You head to the building you saw in the distance. When you arrive you begin going up the stairs. After what seems like an eternity you finally reach the top. You look towards the sunset and see a sign that says "Wellington" outside the city. Before you are able to do anything else the sun sets and you are engulfed in darkness.
+Option: DEATH
+
+Dialog: You start walking towards what looks like the edge of the city. After some time you notice you seeing the same building over and over again and you are not getting any closer leaving the city. You seem to be stuck in some sort of loop. You eventually pass out from exhaustion and succumb to the darkness.
+Option: DEATH
+
+Dialog: You continue walking, but the defense system does not recognize you. You are attacked and knocked unconcious. You eventually succumb to the darkness.
+Option: DEATH
+
+Dialog: You attempt to walk away, but a cage erects from the ground capturing you. With nobody around to set you free you are trapped and eventually succumb to the darkness.
+Option: DEATH
+
+Dialog: path 3ciayaa (point to path x ending)
+Option:?
+Option:?
+Option:?
+
+Dialog: You find a woman in a pink dress with blonde hair and a crown in a cage. You free her from the cage. As thanks for freeing her she teleports you both out of the city and to her castle.
+Option: LIVE
+
+Dialog: You attempt to leave but the presence keeps hold of you. Your heart begins beating faster and faster. You eventually feel something grab you. Before you are able to see anything you faint from the shock. You eventually succumb to the darkness.
+Option: DEATH
+
+Dialog: You turn the corner to investigate the noises. You are instantly surrounded by an army of necrotic creatures and captured by the book.
+Option: DEATH
+
+Dialog: You turn around to leave. As you begin to walk away a cool breeze sweeps over you and a ghostly figure appears holding the book. It opens the book and begins to chant. You are sucked into the book and become its puppet.
+Option: DEATH
+
+Dialog: You choose to leave the simulation. You wake up just outside your house. You look around and everything seems normal except for one thing. There are no people around.
+Option: LIVE (what cost)
+
+Dialog: You choose to reset the simulation. You see in the televisions the city begins to return to normal. People are back and living their lives as normal. You then look back around the room and see that the man is gone. You are stuck to become the new architect.
+Option: DEATH (what cost)

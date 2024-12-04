@@ -1,0 +1,554 @@
+{
+  "start": {
+    "Text": "You wake up in an unknown city. It looks to be abandoned recently. You cannot see anyone around.",
+    "Options": [
+      {"Text": "Search the nearby buildings", "Next": "building_entrance"},
+      {"Text": "Scream for help", "Next": "scream_reaction"},
+      {"Text": "Search your bag", "Next": "bag_search"}
+    ]
+  },
+  "building_entrance": {
+    "Text": "You enter a nearby building. You look around the room.",
+    "Options": [
+      {"Text": "Quietly search the building", "Next": "building_search"},
+      {"Text": "Ask if anyone is home", "Next": "ask_home"},
+      {"Text": "Ransack the place", "Next": "ransack_house"}
+    ]
+  },
+  "scream_reaction": {
+    "Text": "You scream as loud as you can, but only hear your echo in return. As your voice echoes down the street you see a flock of birds fly off.",
+    "Options": [
+      {"Text": "Go to where you saw the birds", "Next": "bird_location"},
+      {"Text": "Begin walking around the city", "Next": "city_wandering"},
+      {"Text": "Leave the city", "Next": "leave_city_after_scream"}
+    ]
+  },
+  "bag_search": {
+    "Text": "You pick up your bag and begin searching through it. A few items stand out to you. You see a lighter, a book and dice, and an ocarina.",
+    "Options": [
+      {"Text": "Put the items back in the bag and search the nearby buildings", "Next": "building_entrance"},
+      {"Text": "Put the items back in the bag and scream for help", "Next": "scream_reaction"},
+      {"Text": "Pick up the book", "Next": "book_examine"}
+    ]
+  },
+  "building_search": {
+    "Text": "While searching the building you find a knife and food. You put them in your bag and leave the building. As you exit the building you notice it is starting to get dark.",
+    "Options": [
+      {"Text": "Head back inside", "Next": "reenter_building"},
+      {"Text": "Continue searching the city", "Next": "city_search_late"},
+      {"Text": "Leave the city", "Next": "leave_city_after_search_no"},
+      {"Text": "Leave the city", "Next": "leave_city_after_search_yes"}
+    ]
+  },
+  "ask_home": {
+    "Text": "You call out as you step into the house asking if anyone is there. You hear rustling in a back room.",
+    "Options": [
+      {"Text": "Leave the house", "Next": "leave_building_after_noise"},
+      {"Text": "Investigate the noise", "Next": "investigate_noise"},
+      {"Text": "Ignore the noise and search the house", "Next": "building_search"}
+    ]
+  },
+  "ransack_house": {
+    "Text": "You begin quickly rummaging through the house. In an attempt to be quick, you accidentally knock a vase off a shelf and are knocked unconcious. You eventually succumb to the darkness.",
+    "Options": [
+      {"Text": "DEATH", "Next": "death"}
+    ]
+  },
+  "bird_location": {
+    "Text": "You walk down the street to where you saw the birds. You see some discarded food on the ground the birds were eating. As you stand there your stomach rumbles.",
+    "Options": [
+      {"Text": "Pick up the food and eat it", "Next": "eat_food_birds"},
+      {"Text": "Search nearby", "Next": "search_nearby_birds"},
+      {"Text": "Walk towards where the birds flew off", "Next": "bird_flight"}
+    ]
+  },
+  "city_wandering": {
+    "Text": "You begin walking around the town without any real purpose. After some time you find yourself back where you started. You notice the sun is beginning to set.",
+    "Options": [
+      {"Text": "Backtrack your steps", "Next": "backtrack_wandering"},
+      {"Text": "Leave the city", "Next": "leave_city_after_wandering"},
+      {"Text": "Lie down", "Next": "rest_after_wandering"}
+    ]
+  },
+  "leave_city_after_scream": {
+    "Text": "The silence makes you feel uneasy as you walk towards the edge of town. You reach the edge around sunset.",
+    "Options": [
+      {"Text": "Enter the wilderness", "Next": "wilderness_leave_town"},
+      {"Text": "Search nearby", "Next": "search_nearby_edge_of_town"},
+      {"Text": "Go back", "Next": "head_back_to_city"}
+    ]
+  },
+  "book_examine": {
+    "Text": "You grab the book from your bag. You try to read the title but it has been faded. You can make out the following: \"Ne_r__a_c_ _f T_ay\". You also notice a slip of paper sticking out from one of the pages.",
+    "Options": [
+      {"Text": "Grab the slip of paper", "Next": "slip_paper"},
+      {"Text": "Read the book", "Next": "read_book"},
+      {"Text": "Leave the book behind", "Next": "leave_book"}
+    ]
+  },
+  "reenter_building": {
+    "Text": "You head back into the building for the night. The darkness envelops you over night.",
+    "Options": [
+      {"Text": "DEATH", "Next": "death"}
+    ]
+  },
+  "city_search_late": {
+    "Text": "You continue trying to search the city, but cannot find anything. As you are walking you hear a whisper in your ear. You are startled and drop your bag as you run out of the city. The sun sets and you are enveloped in darkness.",
+    "Options": [
+      {"Text": "DEATH", "Next": "death"}
+    ]
+  },
+  "leave_city_after_search_no": {
+    "Text": "The city feels uneasy to you and you decide to leave. You eat the food you found, but as the sun sets you are engulfed in darkness.",
+    "Options": [
+      {"Text": "DEATH", "Next": "death"}
+    ]
+  },
+  "leave_city_after_search_yes": {
+    "Text": "The city feels uneasy to you and you decide to leave. You remember you have a lighter. You make a fire and eat the food you found. You decide to stay there for the night.",
+    "Options": [
+      {"Text": "LIVE", "Next": "live"}
+    ]
+  },
+  "leave_building_after_noise": {
+    "Text": "You are startled by the rustling and quickly leave the house. As you step outside you see a vehicle driving on the road.",
+    "Options": [
+      {"Text": "Jump in front of the car", "Next": "jump_car"},
+      {"Text": "Wave down the car", "Next": "wave_car"},
+      {"Text": "Let it pass", "Next": "let_car_pass"}
+    ]
+  },
+  "investigate_noise": {
+    "Text": "You proceed to the back of the house to search for the noise. As you open the back door you are attacked by an animal causing you to fall unconcious. You eventually succumb to the darkness.",
+    "Options": [
+      {"Text": "DEATH", "Next": "death"}
+    ]
+  },
+  "eat_food_birds": {
+    "Text": "You pick up the food and begin to eat it. Your body instantly rejects it. You begin to vomit and pass out. You eventually succumb to the darkness.",
+    "Options": [
+      {"Text": "DEATH", "Next": "death"}
+    ]
+  },
+  "search_nearby_birds": {
+    "Text": "You try searching the area, but all the doors seem to be locked. While searching you realize you have gotten lost. The sun sets and you are enveloped in darkness.",
+    "Options": [
+      {"Text": "DEATH", "Next": "death"}
+    ]
+  },
+  "bird_flight": {
+    "Text": "You start to walk in the direction the birds flew. While trying to follow them your stomach growls more and more until you pass out. You eventually succumb to the darkness.",
+    "Options": [
+      {"Text": "DEATH", "Next": "death"}
+    ]
+  },
+  "backtrack_wandering": {
+    "Text": "You begin retracing your steps as you start to see a familiar place. It is an old creepy shack.",
+    "Options": [
+      {"Text": "Enter the shack", "Next": "enter_shack"},
+      {"Text": "Keep walking", "Next": "continue_walking_wander"}
+    ]
+  },
+  "leave_city_after_wandering": {
+    "Text": "You begin walking towards the edge of the city, but the sun looks like it is setting faster than normal. You begin to sprint in hopes of reaching the edge of the city before nightfall. Just as you reach the edge of the city the sun fully sets and you are engulfed in darkness.",
+    "Options": [
+      {"Text": "DEATH", "Next": "death"}
+    ]
+  },
+  "rest_after_wandering": {
+    "Text": "You lie down and try to think of how you ended up here. You begin to think of what you were doing before you woke up here.",
+    "Options": [
+      {"Text": "Meditate", "Next": "rest_meditate"},
+      {"Text": "Continue thinking", "Next": "rest_inception"},
+      {"Text": "Fall asleep", "Next": "rest_fall_asleep"}
+    ]
+  },
+  "wilderness_leave_town": {
+    "Text": "You proceed out of the town and into the woods. You get lost in the woods, but hear a faint tune.",
+    "Options": [
+      {"Text": "Stay and rest", "Next": "wilderness_rest"},
+      {"Text": "Follow the sound", "Next": "wilderness_oot"}
+    ]
+  },
+  "search_nearby_edge_of_town": {
+    "Text": "You try and search the nearby buildings. Nothing is open and you cannot find anything useful. You eventually succumb to the darkness.",
+    "Options": [
+      {"Text": "DEATH", "Next": "death"}
+    ]
+  },
+  "head_back_to_city": {
+    "Text": "You think your decision to leave town was too hasty. You turn around and start walking in the direction you came from.",
+    "Options": [
+      {"Text": "Turn back again", "Next": "turn_back_loop"},
+      {"Text": "Search nearby", "Next": "search_near_outside"}
+    ]
+  },
+  "slip_paper": {
+    "Text": "You pull the slip from the book. It reads: \"Dear {user}: Please come to the bakery. I've baked a cake for you. Yours truly-- P",
+    "Options": [
+      {"Text": "Go to the bakery", "Next": "go_to_bakery"},
+      {"Text": "Ignore the note and read the book", "Next": "ignore_note_read_book"},
+      {"Text": "Search the city", "Next": "search_ignore_note"}
+    ]
+  },
+  "read_book": {
+    "Text": "You ignore the slip of paper. You open the book and begin to read. The words are unrecognizable to you. You see the dice begin to shake and feel as if something is pulling at your mind.",
+    "RollDice": true,
+    "Options": [
+      {"Text": "Give in to the sensation", "Next": "give_in_to_sensation"},
+      {"Text": "Fight the sensation", "Next": "fight_sensation"},
+      {"Text": "Roll the dice", "Next": "roll_dice"}
+    ]
+  },
+  "leave_book": {
+    "Text": "Unsure of the nature of the book you choose to leave it behind. You but the other items back in your bag and begin to look around the city.",
+    "Options": [
+      {"Text": "Go back for the book", "Next": "go_back_for_book"},
+      {"Text": "Search nearby", "Next": "search_nearby_book"},
+      {"Text": "Look for landmarks", "Next": "look_landmarks"}
+    ]
+  },
+  "jump_car": {
+    "Text": "You jump out in front of the car in an attempt to make it stop. The cars speed does not change and you are hit. You are knocked out and eventually succumb to the darkness.",
+    "Options": [
+      {"Text": "DEATH", "Next": "death"}
+    ]
+  },
+  "wave_car": {
+    "Text": "You move away from the house and try to wave down the car. The car looks to slightly turn towards you. Before you have any time to react you are hit. You are knocked out and eventually succumb to the darkness.",
+    "Options": [
+      {"Text": "DEATH", "Next": "death"}
+    ]
+  },
+  "let_car_pass": {
+    "Text": "You crouch behind some bushes in an attempt to let the car pass. The cars begins to slow down and turns into the garage of the house you were just in. You see the driver begin to get out of the car. He is wearing what appears to be a spacesuit.",
+    "Options": [
+      {"Text": "Talk to the driver", "Next": "talk_driver"},
+      {"Text": "Wait", "Next": "wait_driver"},
+      {"Text": "Attack the driver", "Next": "attack_driver"}
+    ]
+  },
+  "enter_shack": {
+    "Text": "You enter the shack and the floors creek. You feel an eerie aura about the place.",
+    "Options": [
+      {"Text": "Go down the stairs", "Next": "proceed_downstairs"},
+      {"Text": "Pick up a lamp", "Next": "grab_lamp"},
+      {"Text": "leave", "Next": "leave_shack"}
+    ]
+  },
+  "continue_walking_wander": {
+    "Text": "You continue walking and see another familiar place. It looks like a high tech police station. More advanced than any you have seen before.",
+    "Options": [
+      {"Text": "Enter building", "Next": "enter_police_station"},
+      {"Text": "Continue Walking", "Next": "walk_til_death"}
+    ]
+  },
+  "rest_meditate": {
+    "Text": "You start to meditate. You fall into a deep meditation and all of the answers you are looking for become clear. It is as if you hold all the answers to the world. Your eyes open and your mind is clear. You know what you must do.",
+    "Options": [
+      {"Text": "LIVE", "Next": "live"}
+    ]
+  },
+  "rest_inception": {
+    "Text": "You focus hard on what you were doing before you got here. You remeber you were connecting to a dream machine. After you realize this, you begin to freely manipulate the world around you. You then feel as if you are falling and wake up in reality.",
+    "Options": [
+      {"Text": "LIVE", "Next": "live"}
+    ]
+  },
+  "rest_fall_asleep": {
+    "Text": "You shut your eyes. Confused and tired you try to fall asleep. You eventually succumb to the darkness.",
+    "Options": [
+      {"Text": "DEATH", "Next": "death"}
+    ]
+  },
+  "wilderness_rest": {
+    "Text": "Frustrated and tired, you sit down and try to rest. You eventually succumb to the darkness.",
+    "Options": [
+      {"Text": "DEATH", "Next": "death"}
+    ]
+  },
+  "wilderness_oot": {
+    "Text": "You start going towards the tune. As you are following it, the melody suddenly sounds like it is coming from a different direction. You continue following the tune as it slowly gets louder, almost as if it is guiding you through the woods. You are eventually greeted by someone named Saria who is playing the music and offered a safe place to stay.",
+    "Options": [
+      {"Text": "LIVE", "Next": "live"}
+    ]
+  },
+  "turn_back_loop": {
+    "Text": "You can't decide which action is right. You pace back and forth trying to decide which path to choose. Eventually you pass out from exhausting and succumb to the darkness.",
+    "Options": [
+      {"Text": "DEATH", "Next": "death"}
+    ]
+  },
+  "search_near_outside": {
+    "Text": "You make your way back into the city. In an attempt to find a place to stay for the night you begin searching the buildings. You see a door with a faded image on it. You can make out what looks to be an arrow pointing left and a circle around it.",
+    "Options": [
+      {"Text": "Enter the door", "Next": "enter_major_rewind_no"},
+      {"Text": "Enter the door", "Next": "enter_major_rewind_yes"},
+      {"Text": "Leave", "Next": "leave_rewind_door"}
+    ]
+  },
+  "go_to_bakery": {
+    "Text": "You see the bakery not too far away. You go to the bakery and find yourself in front of the door.",
+    "Options": [
+      {"Text": "Enter the bakery", "Next": "enter_bakery"},
+      {"Text": "Search the area", "Next": "search_bakery"}
+    ]
+  },
+  "ignore_note_read_book": {
+    "Text": "You feel wary of the note and decide to ignore it. Placing the note back in the book, you open the first page and begin to read. The words are unrecognizable to you. You see the dice begin to shake and feel as if something is pulling at your mind.",
+    "RollDice": true,
+    "Options": [
+      {"Text": "Give in to the sensation", "Next": "give_in_to_sensation"},
+      {"Text": "Fight the sensation", "Next": "fight_sensation"},
+      {"Text": "Roll the dice", "Next": "roll_dice"}
+    ]
+  },
+  "search_ignore_note": {
+    "Text": "You feel wary of the note. You see the bakery and begin to head in the opposite direction. As you are walking you find yourself at a park.",
+    "Options": [
+      {"Text": "Enter the park", "Next": "enter_park"},
+      {"Text": "Go to the information building", "Next": "search_info_building"}
+    ]
+  },
+ "give_in_to_sensation": {
+    "Text": "You let the sensation into your mind. The text within the book begins to flow into your mind. There is so much information flooding your mind that you are unable to act. The information is too much for one mind and you slowly go insane.",
+    "Options": [
+      {"Text": "DEATH", "Next": "death"}
+    ]
+  },
+  "fight_sensation": {
+    "Text": "You try to fight the sensation and shut the book. As you close the book the title begins to glow as if revealing itself to you. \"The Necromancy of Thay\". The book then flings open and you are absorbed into the book to become its puppet.",
+    "Options": [
+      {"Text": "DEATH", "Next": "death"}
+    ]
+  },
+  "roll_dice_yes": {
+    "Text": "You take the dice and roll them. As they come to a stop they raise slowly almost as if they are unhappy with the result. They show you what you rolled {roll}. The book slams closed and you teleport out of the city with the book in hand. You can feel its power and have full control over it.",
+    "Options": [
+      {"Text": "LIVE", "Next": "start"}
+    ]
+  },
+  "roll_dice_no": {
+    "Text": "You take the dice and roll them. As they come to a stop they quickly raise up as if they are happy with your result. They show you what you rolled {roll}. The book flings open and the pages rapidly begin to turn. You get absorbed into the book to become its puppet.",
+    "Options": [
+      {"Text": "DEATH", "Next": "death"}
+    ]
+  },
+  "go_back_for_book": {
+    "Text": "You think leaving the book was a bad decision. You go back to look for the book only to find it is missing. Upon further inspection, you notice a faint outline of where you had left the book.",
+    "Options": [
+      {"Text": "Search for the book", "Next": "search_for_book"},
+      {"Text": "Yell for someone", "Next": "scream_for_book"}
+    ]
+  },
+  "search_nearby_book": {
+    "Text": "You begin to search the nearby buildings. A small part of your mind almost hoping you come back across the book. You enter a very large building almost resembling a school.",
+    "Options": [
+      {"Text": "Go to the library", "Next": "search_library"},
+      {"Text": "Go to the cafeteria", "Next": "search_cafeteria"},
+      {"Text": "Go to the admin offices", "Next": "search_offices"}
+    ]
+  },
+  "look_landmarks": {
+    "Text": "You look around the city for anything recognizable. In the distance you see a building that looks to be significantly taller than the rest.",
+    "Options": [
+      {"Text": "Go to the building", "Next": "search_tall_building"},
+      {"Text": "Leave the city", "Next": "leave_after_landmarks"}
+    ]
+  },
+  "talk_driver": {
+    "Text": "You try to get the drivers attention by talking to them. Startled, the driver looks around and quickly captures you.",
+    "Options": [
+      {"Text": "DEATH", "Next": "death"}
+    ]
+  },
+  "wait_driver": {
+    "Text": "You wait for the driver to leave the vehicle. Out of the corner of their eye you are spotted. They quickly subdue you.",
+    "Options": [
+      {"Text": "DEATH", "Next": "death"}
+    ]
+  },
+  "attack_driver": {
+    "Text": "You quickly attack the driver while he is getting out. You push them into the door and they are knocked out. You get in the car and leave the city.",
+    "Options": [
+      {"Text": "LIVE", "Next": "live"}
+    ]
+  },
+  "proceed_downstairs": {
+    "Text": "You make your way down the stairs. Once you reach the bottom you see some sort of bomb shelter stocked with plenty of resources. You decide to stay there for the night.",
+    "Options": [
+      {"Text": "LIVE", "Next": "live"}
+    ]
+  },
+  "grab_lamp": {
+    "Text": "You pick up the oil lamp and attempt to dust it off. Like a scene from a movie a genie begins to come out of the lamp. Althought instead of wishes the genie says the lamp must always have someone in it. You are then sucked into the lamp with only a hope someone will free you.",
+    "Options": [
+      {"Text": "DEATH", "Next": "death"}
+    ]
+  },
+  "leave_shack": {
+    "Text": "You turn around to leave, but you feel something try to grab your shoulder. You quickly turn to see what it was. The floorboard breaks and you fall down the stairs getting knocked unconcious. You eventually succumb to the darkness.",
+    "Options": [
+      {"Text": "DEATH", "Next": "death"}
+    ]
+  },
+  "enter_police_station": {
+    "Text": "You begin walking towards the police station. After a few steps, an automated defense system begins to activate.",
+    "Options": [
+      {"Text": "Continue walking", "Next": "continue_to_police"},
+      {"Text": "Leave", "Next": "leave_police"}
+    ]
+  },
+  "walk_til_death": {
+    "Text": "As you keep walking you see the same places over and over again. You have been walking in circles. You eventually pass out from exhaustion and succumb to the darkness.",
+    "Options": [
+      {"Text": "DEATH", "Next": "death"}
+    ]
+  },
+  "enter_major_rewind_no": {
+    "Text": "You attempt to enter the door but it is locked. You leave but can't seem to find anything else. You are engulfed in darkness.",
+    "Options": [
+      {"Text": "DEATH", "Next": "death"}
+    ]
+  },
+  "enter_major_rewind_yes": {
+    "Text": "You feel an urge to pull out your ocarina. As you begin to play it the door opens and you are blinded by a bright light. You see all your decisions you have made begin to move around you as if fading from your memory. Your vision then goes dark.",
+    "Options": [
+      {"Text": "LIVE", "Next": "start"}
+    ]
+  },
+  "leave_rewind_door": {
+    "Text": "You leave the area in search for something else. As you look around nothing seems to be open. You are slowly enveloped in darkness.",
+    "Options": [
+      {"Text": "DEATH", "Next": "death"}
+    ]
+  },
+  "enter_bakery": {
+    "Text": "You enter the bakery in hopes of seeing your secret admirer P with a cake. Upon entering the building the doors slam shut and lock behind you. There is not cake, it was all a lie.",
+    "Options": [
+      {"Text": "DEATH", "Next": "death"}
+    ]
+  },
+  "search_bakery": {
+    "Text": "You search the area to see if you can spot anything suspicious. Nothing seems to be out of the ordinary, but you feel some sort of presence pulling you towards the bakery.",
+    "Options": [
+      {"Text": "Entery the bakery", "Next": "enter_bakery"},
+      {"Text": "Go around back", "Next": "behind_bakery"},
+      {"Text": "Leave", "Next": "leave_bakery"}
+    ]
+  },
+  "enter_park": {
+    "Text": "You enter the park and admire the scenery. It looks so beautiful that you don't want to leave. You decide this is the perfect place to rest. As night falls you succumb to the darkness.",
+    "Options": [
+      {"Text": "DEATH", "Next": "death"}
+    ]
+  },
+  "search_info_building": {
+    "Text": "You head into the information building. Inside you find a map of the city and surrounding area. Using the map you make your way out of the city and to a safe location. You use your lighter to make a fire and camp out for the night.",
+    "Options": [
+      {"Text": "LIVE", "Next": "start"}
+    ]
+  },
+  "search_for_book": {
+    "Text": "You search around for the book and you think you see something out of the corner of your eye. You walk over and start to hear groaning around the corner.",
+    "Options": [
+      {"Text": "Investigate further", "Next": "investigate_groans"},
+      {"Text": "Leave", "Next": "leave_groans"}
+    ]
+  },
+  "scream_for_book": {
+    "Text": "You yell out into the city to try to find whoever took the book. Seconds later you are swarmed and surrounded by an army of necrotic creatures and are consumed by the book.",
+    "Options": [
+      {"Text": "DEATH", "Next": "death"}
+    ]
+  },
+  "search_library": {
+    "Text": "You head to the library and notice the book open and floating in the center of the room. The pages begin to rapidly turn and you are absorbed by the book.",
+    "Options": [
+      {"Text": "DEATH", "Next": "death"}
+    ]
+  },
+  "search_cafeteria": {
+    "Text": "You head to the cafeteria in an effort to find food and water. When you arrive you cannot believe how much food and water there is. You decide that you will stay here for the night.",
+    "Options": [
+      {"Text": "LIVE", "Next": "start"}
+    ]
+  },
+  "search_offices": {
+    "Text": "You head towards the administration offices. When you arrive you enter the door. Inside the room you notice it is filled with televisions. In the center is a man sitting in a chair. He introduces himself as the architect and explains to you that this world and everything you have ever known is a simulation.",
+    "Options": [
+      {"Text": "Leave the simulation", "Next": "leave_simulation"},
+      {"Text": "Reset the simulation", "Next": "reset_simulation"}
+    ]
+  },
+  "search_tall_building": {
+    "Text": "You head to the building you saw in the distance. When you arrive you begin going up the stairs. After what seems like an eternity you finally reach the top. You look towards the sunset and see a sign that says \"Wellington\" outside the city. Before you are able to do anything else the sun sets and you are engulfed in darkness.",
+    "Options": [
+      {"Text": "DEATH", "Next": "death"}
+    ]
+  },
+  "leave_after_landmarks": {
+    "Text": "You start walking towards what looks like the edge of the city. After some time you notice you seeing the same building over and over again and you are not getting any closer leaving the city. You seem to be stuck in some sort of loop. You eventually pass out from exhaustion and succumb to the darkness.",
+    "Options": [
+      {"Text": "DEATH", "Next": "death"}
+    ]
+  },
+  "continue_to_police": {
+    "Text": "You continue walking, but the defense system does not recognize you. You are attacked and knocked unconcious. You eventually succumb to the darkness.",
+    "Options": [
+      {"Text": "DEATH", "Next": "death"}
+    ]
+  },
+  "leave_police": {
+    "Text": "You attempt to walk away, but a cage erects from the ground capturing you. With nobody around to set you free you are trapped and eventually succumb to the darkness.",
+    "Options": [
+      {"Text": "DEATH", "Next": "death"}
+    ]
+  },
+  "behind_bakery": {
+    "Text": "You find a woman in a pink dress with blonde hair and a crown in a cage. You free her from the cage. As thanks for freeing her she teleports you both out of the city and to her castle.",
+    "Options": [
+      {"Text": "LIVE", "Next": "start"}
+    ]
+  },
+  "leave_bakery": {
+    "Text": "You attempt to leave but the presence keeps hold of you. Your heart begins beating faster and faster. You eventually feel something grab you. Before you are able to see anything you faint from the shock. You eventually succumb to the darkness.",
+    "Options": [
+      {"Text": "DEATH", "Next": "death"}
+    ]
+  },
+  "investigate_groans": {
+    "Text": "You turn the corner to investigate the noises. You are instantly surrounded by an army of necrotic creatures and captured by the book.",
+    "Options": [
+      {"Text": "DEATH", "Next": "death"}
+    ]
+  },
+  "leave_groans": {
+    "Text": "You turn around to leave. As you begin to walk away a cool breeze sweeps over you and a ghostly figure appears holding the book. It opens the book and begins to chant. You are sucked into the book and become its puppet.",
+    "Options": [
+      {"Text": "DEATH", "Next": "death"}
+    ]
+  },
+  "leave_simulation": {
+    "Text": "You choose to leave the simulation. You wake up just outside your house. You look around and everything seems normal except for one thing. There are no people around. You may have survived, but at what cost?",
+    "Options": [
+      {"Text": "LIVE", "Next": "live"}
+    ]
+  },
+  "reset_simulation": {
+    "Text": "You choose to reset the simulation. You see in the televisions the city begins to return to normal. People are back and living their lives as normal. You then look back around the room and see that the man is gone. You are stuck to become the new architect. The others are alive, but was it worth the cost?",
+    "Options": [
+      {"Text": "DEATH", "Next": "death"}
+    ]
+  },
+  
+
+  "death": {
+    "Text": "You have died. The game is over.",
+    "Options": []
+  },
+  "live": {
+    "Text": "You live to fight another day.",
+    "Options":[]
+  }
+}

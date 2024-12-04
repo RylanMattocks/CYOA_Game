@@ -1,0 +1,656 @@
+You wake up in a city with nobody around
+
+You either:
+
+1. Search the nearby buildings
+2. Scream for help
+3. Search your bag
+
+path 1:
+
+you enter a nearby apartment building and look around
+
+you either:
+
+    A. quietly search the building
+    B. ask if anyone is home
+    C. ransack the place
+
+        path A:
+
+        while searching the building you find a knife and some food
+        you put them in your bag and leave the building
+        you notice it is getting dark
+
+        you either:
+
+            i. head back inside the building for the night
+            ii. continue searching the city
+            iii. leave the city
+
+                path i:
+
+                you head back into the building for the night.....
+                DEATH
+
+                path ii:
+
+                you continue down the streets as the sun begins to set
+                as you are walking you hear a whisper in your ear you are startled and drop your bag as you run out of the city
+                you succumb to the cold
+                DEATH
+
+                path iii:
+                With the sun beginning to set you leave the city and find a place to rest for the night
+                CHECK IF THEY OPENED BAG
+                IF NO
+                you eat the food you found but you succumb to the cold over night
+                DEATH
+                IF YES
+                you pull the lighter from your bag and make a campfire
+                LIVE
+
+        path B:
+        you call out as you take a step in the house to see if anyone is there
+        you hear some rustling in a back room
+
+        you either
+
+            i.leave the house
+            ii. go investigate the noise
+            iii. ignore the noise and search the house
+
+                path i:
+
+                after hearing something you quickly leave the house
+                you see a car driving on the road
+
+                you either
+                    
+                    a. jump in front of the car to make it stop
+                    b. wave the car down
+                    c. let it pass
+
+                        path a:
+                        you jump in front of the car to try to get it to stop
+                        the car does not change speeds and you are hit
+                        DEATH
+
+                        path b:
+                        you attempt to wave down the car
+                        you notice it begins to turn but you dont react quick enough and it hits you
+                        DEATH
+                        
+                        path c:
+                        you hide and let the car pass
+                        the car slows down and pulls into the garage of the house you were searching
+                        the driver appears to be wearing what appears to be a spacesuit
+                        he begins to get out of the car
+
+                        you either
+
+                            x. attempt to talk to the driver
+                            y. attempt to attack the driver
+                            z. wait for the driver to enter the home
+                            
+                                path x:
+                                you begin to talk to the driver
+                                startled he pulls out a gun
+                                DEATH
+
+                                path y:
+                                you attempt to attack the driver
+                                the driver notices you and knocks you out
+                                DEATH
+
+                                path z:
+                                you wait for the driver to enter the home
+                                after the door shuts you steal the vehicle and leave the city
+                                LIVE
+
+                path ii:
+
+                you go to investigate the noise
+                upon opening the door a dog jumps out of the room and attacks you
+                DEATH
+
+                path iii:
+
+                proceed back to path A: (search the house quietly)
+        
+        path C:
+
+        as you are rummaging through the house a pot falls from a shelf and knocks you out
+        DEATH
+                
+Path 2:
+you scream as loud as you can but all you hear is your own echo
+you see some birds start flying away in the distance
+
+you either:
+
+    A. go towards the area you saw the birds flying
+    B. begin walking around the town
+    C. attempt to leave the town
+
+        path A:
+        you walk down the street to where you saw the birds start flying
+        you see some discarded food on the ground they must have been eating
+
+        you either
+            i. pick up the food and eat it
+            ii. try to search around nearby
+            iii. walk in the direction the birds flew off
+
+                path i:
+                you pick up the discarded food and begin to eat it
+                your body instantly reacting in a bad way
+                you begin throwing up and because of the strain you pass out
+                DEATH
+
+                path ii:
+                you try searching around in the area but all of the doors are locked
+                after continuing your search you realize you are lost
+                the sun begins to set and you succumb to the cold and hunger
+                DEATH
+                
+                path iii:
+                you start walking in the direction the birds were flying
+                while maneuvering around the buildings you become exhausted
+                you faint
+                DEATH
+        path B:
+        you begin walking around the town without purpose
+        after a few hours you find yourself back where you started with the sun beginning to set
+
+        you either
+            i. begin to backtrack your steps in search for places you passed
+            ii. attempt to leave the city before the sun sets
+            iii. lie back down where you awoke earlier
+
+                path i:
+                you start following the path that you just walked and you start seeing places you took note of
+
+                you either:
+
+                    a. attempt to enter the small creepy shack you saw earlier
+                    b. you continue walking
+
+                        path a:
+                        you enter the shack and take notice of the surroundings
+
+                        you either:
+
+                            x. you proceed down the stairs to what seems like a basement
+                            y. you see an old fashioned oil lamp and pick it up
+                            z. you attempt to leave
+
+                                path x:
+                                you make your way down the stairs
+                                upon reaching the bottom you see that it is a nuclear shelter
+                                you stay there
+                                LIVE
+
+                                path y:
+                                you pick up the oil lamp and begin to dust it off
+                                like out of a movie you see a genie begin to come out of the lamp
+                                the genie finally being free then traps you in the lamp since there must always be something in the lamp
+                                DEATH
+
+                                path z:
+                                you turn around to leave
+                                you feel a hand grab your shoulder
+                                you jolt around to see nothing
+                                this throws you off balance and you fall down the stairs
+                                DEATH
+
+                        path b:
+                        you walk past the shack
+                        you soon come up on a police station
+
+                        you either:
+
+                            x. attempt to enter the police station
+                            y. you continue walking
+
+                                path x: 
+                                you begin walking towards the police station
+                                automatic defense systems begin to active
+
+                                you either:
+
+                                    AA. continue walking towards the police station
+                                    BB. walk away
+
+                                        path AA:
+                                        you continue walking and the defense system recognizes you as a threat
+                                        it kills you
+                                        DEATH
+
+                                        path BB:
+                                        you start to walk away 
+                                        as the defense system starts to deactive it captures you in a change
+                                        with nobody around to set you free you pass out from hunger and the cold
+                                        DEATH
+                                
+                                path y:
+                                you contiue walking
+                                you start to notice you have seen the same locations multiple times
+                                you see the shack and police station you passed for the third maybe even fourth times
+                                you pass out from exhaustion
+                                DEATH
+
+                part ii:
+                the sun begins setting faster and you begin running to try to escape the city
+                you keep running and running but it seems like the city is one big loop
+                just as you are about to reach the edge of the city you body gives out from exhaustion
+                DEATH
+
+                part iii:
+                you lie down and try to think of how you ended up here in the first place
+
+                you either:
+                    
+                    a. try to meditate
+                    b. continue trying to retrace your steps to figure out the last thing you were doing
+                    c. fall asleep
+
+                        path a:
+                        you begin meditating
+                        while meditating it seems as though all the answers to the world become clear
+                        you open your eyes and know exactly what must be done
+                        LIVE
+
+                        path b:
+                        you try to remember how you got here
+                        you remember being signing up for a sleep study
+                        you remember that you are asleep
+                        you are then free to manipulate this new world to your liking
+                        LIVE
+
+                        path c:
+                        you shut your eyes and fall asleep
+                        the night falls and without ever knowing you succumb to the cold
+                        DEATH
+
+        path C:
+        the silence of the town makes you feel uneasy
+        you start walking and reach the edge of the town around sunset
+
+        you either:
+
+            i. proceed into the wilderness
+            ii. attempt to search nearby before going farther
+            iii. go back into town
+
+                path i:
+                you proceed out of the town and into the woods
+                while walking around you find yourself lost in the woods
+                you hear a faint tune
+
+                you either:
+                    a. stay where you are and rest
+                    b. follow the sound
+
+                        path a:
+                        you stay where you are and try to rest
+                        without an food, water or heat you begin to wither away
+                        DEATH
+
+                        path b:
+                        you follow the tune
+                        as you walk towards it, it suddenly changes directions
+                        you keep following the tune
+                        it feels as though it is guiding you through the woods
+                        you finally find your way through the woods to be greeted by someone named Saria
+                        LIVE
+
+                path ii:
+                you try to search the buildings nearby but cannot find anything useful
+                the darkness engulfs the area and you succumb to the cold
+                DEATH
+
+                path iii:
+                you think you were too quick to decide on leaving the town
+                you turn around and head back in the direction you came
+
+                you either:
+                    a. turn back around and back out of town
+                    b. begin searching for a place to stay
+
+                        path a:
+                        your indecisiveness kicks in again
+                        you begin walking back towards the woods
+                        you then turn back towards the town
+                        repeating this process over and over until you pass out from exhaustion
+                        DEATH
+                    
+                        path b:
+                        you try to quickly search nearby for anything
+                        you see a door with a mostly faded image on it 
+                        you see what looks to be an arrow pointing left surrounded by a circle
+
+                        you either:
+                            x. attempt to enter the door
+                            y. leave and try to find something else
+
+                                path x:
+                                you try to enter the door but its locked
+                                CHECK IF THEY SEARCHED BAG AT BEGINNING
+                                IF NO
+                                go to path y:
+                                IF YES
+                                you feel the urge to pull out your ocarina
+                                you begin to play it and are blinded by a bright light
+                                you see all the decisions you have made begin to move around you as if fading out of your memory
+                                your vision goes dark
+                                RESTART THE GAME FROM THE BEGINNING AND GIVE A HINT
+
+                                path y:
+                                you leave but cant seem to find anything else
+                                darkness begins engulfing the area and you succumb to the cold
+                                DEATH
+
+
+
+
+///////////// BELOW NEEDS ADDED TO DOCUMENT
+
+
+
+
+Path 3:
+you start to search through your bag
+you notice a lighter, a book, dice, and an ocarina
+
+you either:
+
+    A. put the items back in the bag and search the nearby buildings
+    B. put the items back in the bag and scream for help
+    C. pick up the book
+
+        Path A:
+        Proceed back to Path 1
+        SET BAG TO CHECKED
+
+        Path B:
+        Proceed back to Path 2
+        SET BAG TO CHECKED
+
+        Path C:
+        you pick up the book
+        the title is faded but you can make out some letters
+        it says "ne_r__a_c_ _f t_ay" necromancy of thay
+        you also notice some slip sticking out from the pages
+
+        you either:
+
+            i. grab the slip of paper
+            ii. begin reading the book
+            iii. leave the book on the ground
+
+
+                path i:
+                you read the slip
+                it says "Dear User: Please come to the bakery. I've baked a cake for you. Yours truly-- P
+
+                you either:
+
+                    a. head to the bakery
+                    b. disregard the note and read the book
+                    c. head in the opposite direction of the bakery
+
+                        path a:
+                        you head down the street and come across the bakery
+
+                        you either:
+
+                            x. enter the bakery
+                            y. search the area
+
+                                path x:
+                                you enter the bakery expecting to see your secret admirer P
+                                upon entering the doors slam shut and lock behind you
+                                there is no cake, it was all a lie
+                                DEATH
+
+                                path y:
+                                you search the area to see if there is anything suspicious
+                                nothing seems to out of the ordinary
+                                you feel a presence pulling you towards the bakery
+
+                                you either:
+
+                                    AA. enter the bakery
+                                    BB. go around back
+                                    CC. leave
+
+                                        path AA:
+                                        use path x ending
+
+                                        path BB:
+                                        you find a woman with a pink dress, crown, and blonde hair caged up
+                                        you free here
+                                        as thanks for freeing her she teleports you away from the city to her castle
+                                        LIVE
+                                
+                                        path CC:
+                                        you attempt to leave but the presence won't let you
+                                        you feel as if someone is grabbing you
+                                        the stress and shock causes your heart to beat fast
+                                        you quickly turn around and before you can comprehend what you see you faint
+                                        DEATH
+
+                        path b:
+                        you place the note back in the book and begin reading
+                        the words are unrecognizable to you, but you feel something pulling at your mind
+                        you notice the dice begin to shake
+
+                        you either:
+
+                            x. give in to the sensation pulling at your mind
+                            y. fight the sensation and try to shut the book
+                            z. roll the dice
+
+                                path x:
+                                you let the force into your mind
+                                you begin to understand the book
+                                all the information flows into your mind
+                                its as if all time has stopped as the information flows into your mind
+                                the information is far too overwhelming for one mind as you slowly go insane
+                                DEATH
+
+                                path y:
+                                you try to fight the sensation and shut the book
+                                just before the book is closed it shoots open
+                                necrotic creature begin to flood out of the book as the title becomes revealed to you
+                                "the necromancy of thay"
+                                you realize you will soon become one of them
+                                DEATH
+
+                                random number generator
+                                path z1 (rolled over 13):
+                                you grab the dice and roll them
+                                as they come to a stop they raise slowly as if they are unhappy
+                                they show your number (insert random number that was generated)
+                                the book slams closed and you are transported away to what seems to be a safe location outside the city with the book in hand
+                                you can feel its power and you have full control over it
+                                LIVE
+
+
+                                path z2 (rolled under 13):
+                                you grab the dice and roll them
+                                as they come to a stop they raise in an almost cheerful manner
+                                they show your number (insert random number that was generated)
+                                the book flings open and the pages begin turning rapidly
+                                you are sucked into the book as if you are becoming a puppet to the book
+                                DEATH
+
+                        path c:
+                        you feel wary of the note and decide to head in the opposite direction
+                        you walk along the streets and find a park
+
+                        you either
+
+                            x. enter the park
+                            y. head to the information building
+
+                                path x:
+                                you enter the park and admire all the scenery
+                                it looks beautiful and you decide to make a fire and rest
+                                overnight without your knowledge the fire is put out and you succumb to the cold
+                                DEATH
+
+                                path y:
+                                you head into the information building
+                                you find a map of the city
+                                using the map you make your way to a safe location outside the city
+                                you make a fire and rest for the night
+                                LIVE
+
+
+            path ii:
+            you open the book and begin to read
+            the words are unrecognizable to you, but you feel something pulling at your mind
+            you notice the dice begin to shake
+
+            GO TO Path b CHOICES
+
+            path iii:
+            unsure of what to make of this book you leave it on the ground
+            you place everything back in your bag and begin to look around the city
+
+            you either
+
+                a. go back for the book
+                b. search the nearby buildings
+                c. look for landmarks around the city
+
+                    path a:
+                    you go back to pick up the book only to realize its missing
+                    there is a faint outline of where you had left the book
+
+                    you either:
+
+                        x. search for the book
+                        y. yell to try to find who took it
+
+                            path x:
+                            as you search around for the book you think you see something
+                            upon further investigation you start to hear groaning
+
+                            you either:
+
+                                AA. investigate the noises
+                                BB. leave
+
+                                    path AA:
+                                    you turn the corner to investigate the noises
+                                    you see bunch of necrotic creatures
+                                    before you get the chance to run away you are caught
+                                    DEATH
+
+                                    path BB:
+                                    you turn around in an attempt to leave
+                                    a cool wind sweeps over you and you see a ghostly figure
+                                    the figure is holding the book
+                                    it opens the book and starts chanting
+                                    you are violently pulled into the book to become his servant
+                                    DEATH
+
+            
+                            path y:
+                            you yell out into the city in an attempt to get the attention of whatever took your book
+                            in what seems like seconds you are swarmed by necrotic creatures and consumed by the power of the book
+                            DEATH
+
+                    path b:
+                    you attempt to search the nearby buildings
+                    a part of you almost hoping you see the book again
+                    you enter a nearby building almost resembling a school
+
+
+                    you either:
+
+                        x. go to the school library
+                        y. head to the cafeteria
+                        z. go to the administration offices
+
+                            path x:
+                            you head to the library and notice the book you left floating in the center
+                            the pages rapidly turn
+                            the power of the book overwhelms you
+                            you find yourself captured inside
+                            DEATH
+
+                            path y:
+                            you head to the cafeteria
+                            you believe you may be able to find food
+                            upon arrival you find an abundance of food and water
+                            you decide to make camp there for the night
+                            LIVE
+
+                            path z:
+                            you head towards the administration offices
+                            you enter the room and it is filled with televisions and a man sitting in a chair
+                            he reveals to you that he is the architect
+                            everything you know is a simulation
+                            he gives you a CHOICES
+
+                            you either:
+
+                                AA. leave the simulation
+                                BB. reset the simulation
+
+                                    path AA:
+                                    you choose to leave
+                                    you wake up outside your house
+                                    everything looks to be normal except one thing
+                                    there is nobody to be found
+                                    LIVE (BUT AT WHAT COST)
+
+                                    path BB:
+                                    you choose to reset the simulation
+                                    you see in the televisions the city begins to return to normal
+                                    all of the people are back and living their lives as they did before
+                                    you look around and see the man is gone and there are no doors
+                                    nothing but all the televisions and an empty chair
+                                    DEATH
+                                    
+                    path c:
+                    you look around the city to see if there is anything recognizable
+                    the only building that catches your eye seems to be significantly taller than the rest
+
+                    you either
+
+                        x. go to the building
+                        y. attempt to leave the city
+
+                            path x:
+                            you go to the tall building and begin going up the stairs for what seems like an eternity
+                            upon reaching the top you look towards the sunset
+                            you see a sign that says "safe haven" outside the city
+                            as you think about what you will do next darkness falls and you succumb to the cold
+                            DEATH
+
+                            path y:
+                            you attempt to leave the city while walking down the street you think you notice the same buildings
+                            as you keep walking the city begins to loop over and over until you pass out from exhaustion
+                            DEATH
+                            
+
+
+keep track of loop
+if loop multiple times have easter egg
+
+
+
+different files
+
+user interface
+
+all path options
+
+get text
+
+keep all choices in log file and display story from file at end

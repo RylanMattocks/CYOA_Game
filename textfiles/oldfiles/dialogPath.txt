@@ -1,0 +1,50 @@
+intro
+path1
+path1A
+path1Ai
+path1Aii
+path1Aiii NO
+path1Aiii YES
+path1B
+path1Bi
+path1Bia
+path1Bib
+path1Bic
+path1Bicx
+path1Bicy
+path1Bicz
+path1Bii
+path1Biii
+path1C
+path2
+path2A
+path2Ai
+path2Aii
+path2Aiii
+path2B
+path2Bi
+path2Bia
+path2Biax
+path2Biay
+path2Biaz
+path2Bib
+path2Bibx
+path2BibxAA
+path2BibxBB
+path2Biby
+path2Bii
+path2Biii
+path2Biiia
+path2Biiib
+path2Biiic
+path2C
+path2Ci
+path2Cia
+path2Cib
+path2Cii
+path2Ciii
+path2Ciiia
+path2Ciiib
+path2Ciiibx NO
+path2Ciiibx YES
+path2Ciiiby
