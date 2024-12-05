@@ -14,9 +14,7 @@ class Program
         Console.WriteLine("At any time you can save by typing \'save\'. To exit without saving type \'exit\'");
         Console.WriteLine("Please enter your username to begin: ");
         string username = Console.ReadLine();
-        User.Username = username;
-        string saveLocation = SaveHelper.DisplayUserSaves();
-
+        SaveState savedState = SaveHelper.DisplayUserSaves(username);
 
         var path = Directory.GetCurrentDirectory();
         path += "\\textfiles\\dialog.json";
@@ -27,6 +25,14 @@ class Program
 
         GraphHelper.BuildGraph(dialogData, dialogGraph);
 
-        GraphHelper.TraverseDialog(dialogGraph, saveLocation);
+        if (savedState is null) {
+            User newUser = new() {
+                Username = username
+            };
+            GraphHelper.TraverseDialog(dialogGraph, "start", newUser);
+        }
+        else {
+            GraphHelper.TraverseDialog(dialogGraph, savedState.SaveLocation, savedState.User);
+        }
     }
 }

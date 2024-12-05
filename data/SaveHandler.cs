@@ -1,14 +1,13 @@
 using System.Text.Json;
 
 public static class SaveHandler{
-    public static string LoadSave(string saveName) {
-        string username = User.Username;
+    public static SaveState LoadSave(string saveName, string username) {
         string saveFilePath = Path.Combine(Environment.CurrentDirectory, "Saves", username, saveName);
         
         if (File.Exists(saveFilePath)) {
             string json = File.ReadAllText(saveFilePath);
 
-            string loadedSave = JsonSerializer.Deserialize<string>(json);
+            var loadedSave = JsonSerializer.Deserialize<SaveState>(json);
 
             Console.WriteLine("Game loaded successfully!");
             return loadedSave;
@@ -19,13 +18,17 @@ public static class SaveHandler{
         }
     }
 
-    public static void SaveGame(string saveName, string saveLocation) {
-        string username = User.Username;
+    public static void SaveGame(string saveName, string saveLocation, User user) {
+        string username = user.Username;
         saveName += ".save";
+        SaveState saveState = new() {
+            SaveLocation = saveLocation,
+            User = user
+        };
         string saveDirectory = Path.Combine(Environment.CurrentDirectory, "Saves", username);
         Directory.CreateDirectory(saveDirectory);
 
-        string json = JsonSerializer.Serialize(saveLocation);
+        string json = JsonSerializer.Serialize(saveState);
 
         string saveFilePath = Path.Combine(saveDirectory, saveName);
 

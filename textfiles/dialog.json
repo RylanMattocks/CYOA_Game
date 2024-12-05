@@ -25,6 +25,7 @@
   },
   "bag_search": {
     "Text": "You pick up your bag and begin searching through it. A few items stand out to you. You see a lighter, a book and dice, and an ocarina.",
+    "BagCheck" : true,
     "Options": [
       {"Text": "Put the items back in the bag and search the nearby buildings", "Next": "building_entrance"},
       {"Text": "Put the items back in the bag and scream for help", "Next": "scream_reaction"},
@@ -33,11 +34,11 @@
   },
   "building_search": {
     "Text": "While searching the building you find a knife and food. You put them in your bag and leave the building. As you exit the building you notice it is starting to get dark.",
+    "IsBagChecked" : true,
     "Options": [
       {"Text": "Head back inside", "Next": "reenter_building"},
       {"Text": "Continue searching the city", "Next": "city_search_late"},
-      {"Text": "Leave the city", "Next": "leave_city_after_search_no"},
-      {"Text": "Leave the city", "Next": "leave_city_after_search_yes"}
+      {"Text": "Leave the city", "Next": "leave_city_after_search"}
     ]
   },
   "ask_home": {
@@ -281,9 +282,9 @@
   },
   "search_near_outside": {
     "Text": "You make your way back into the city. In an attempt to find a place to stay for the night you begin searching the buildings. You see a door with a faded image on it. You can make out what looks to be an arrow pointing left and a circle around it.",
+    "IsBagChecked": true,
     "Options": [
-      {"Text": "Enter the door", "Next": "enter_major_rewind_no"},
-      {"Text": "Enter the door", "Next": "enter_major_rewind_yes"},
+      {"Text": "Enter the door", "Next": "enter_majora_rewind"},
       {"Text": "Leave", "Next": "leave_rewind_door"}
     ]
   },
@@ -405,13 +406,13 @@
       {"Text": "DEATH", "Next": "death"}
     ]
   },
-  "enter_major_rewind_no": {
+  "enter_majora_rewind_no": {
     "Text": "You attempt to enter the door but it is locked. You leave but can't seem to find anything else. You are engulfed in darkness.",
     "Options": [
       {"Text": "DEATH", "Next": "death"}
     ]
   },
-  "enter_major_rewind_yes": {
+  "enter_majora_rewind_yes": {
     "Text": "You feel an urge to pull out your ocarina. As you begin to play it the door opens and you are blinded by a bright light. You see all your decisions you have made begin to move around you as if fading from your memory. Your vision then goes dark.",
     "Options": [
       {"Text": "LIVE", "Next": "start"}

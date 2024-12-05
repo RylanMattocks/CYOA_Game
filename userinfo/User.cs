@@ -1,4 +1,6 @@
-public static class User {
-    public static string Username { get; set; }
-    public static int DiceRoll { get; set; }
+public class User {
+    public string Username { get; set; }
+    public int DiceRoll { get; set; }
+    public bool BagCheck { get; set; } = false;
+    public int Looping { get; set; }
 }

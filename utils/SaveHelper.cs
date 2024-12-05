@@ -1,6 +1,5 @@
 public static class SaveHelper{
-    public static string DisplayUserSaves() {
-        string username = User.Username;
+    public static SaveState DisplayUserSaves(string username) {
         string savesDirectory = Path.Combine(Environment.CurrentDirectory, "Saves", username);
         if (Directory.Exists(savesDirectory)) {
             Console.WriteLine($"\nSaves for {username}:");
@@ -13,7 +12,7 @@ public static class SaveHelper{
 
                 Console.WriteLine("\nChoose a save to load (enter number): ");
                 if (int.TryParse(Console.ReadLine(), out int choice) && choice >= 1 && choice <= savedFiles.Count){
-                    return SaveHandler.LoadSave(Path.GetFileName(savedFiles[choice - 1]));
+                    return SaveHandler.LoadSave(Path.GetFileName(savedFiles[choice - 1]), username);
                 }
                 else{
                     Console.WriteLine("Invalid choice.");
@@ -23,6 +22,6 @@ public static class SaveHelper{
                 Console.WriteLine($"No saves found for {username}. Starting a new game.");
             }
         }
-        return "start";
+        return (null);
     }
 }

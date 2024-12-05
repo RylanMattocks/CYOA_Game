@@ -7,7 +7,7 @@ public static class GraphHelper{
         }
     }
     
-    public static void TraverseDialog(DialogGraph dialogGraph, string currentNodeId) {
+    public static void TraverseDialog(DialogGraph dialogGraph, string currentNodeId, User user) {
         var dialogNode = dialogGraph.GetNode(currentNodeId);
 
         if (dialogNode is null) {
@@ -15,24 +15,30 @@ public static class GraphHelper{
             return;
         }
 
-        string formattedText = FormatText(dialogNode.Text);
+        if (user.Looping >= 3 && currentNodeId == "start") {
+            if (user.Looping > 3) {
+                Console.WriteLine("You are stuck in an infinite loop. You fear there may be no way out...");
+                TraverseDialog(dialogGraph, "death", user);
+                return;
+            }
+            else Console.WriteLine("The city seems like a dangerous place, maybe you can survive with the items you have found");
+        }
+
+        string formattedText = FormatText(dialogNode.Text, user);
         Console.WriteLine(formattedText);
         var nextDialogIds = dialogGraph.GetNextDialogIds(currentNodeId);
 
         if (nextDialogIds.Count == 0){
-            Console.WriteLine("No more dialog options.");
             return;
         }
 
-        if (dialogNode.Options[0].Next == "death") {
-            Console.WriteLine("You have died.");
+        if (dialogNode.Options.Count == 1) {
+            if(dialogNode.Options[0].Next == "start") user.Looping += 1;
+            TraverseDialog(dialogGraph, dialogNode.Options[0].Next, user);
             return;
         }
 
-        if (dialogNode.Options[0].Next == "live") {
-            Console.WriteLine("Congratulations! You have survived!");
-            return;
-        }
+        if (dialogNode.BagCheck) user.BagCheck = true;
 
         for (int i = 0; i < dialogNode.Options.Count; i++) {
             Console.WriteLine($"{i + 1}. {dialogNode.Options[i].Text}");
@@ -47,7 +53,7 @@ public static class GraphHelper{
             if(input.Trim().ToLower().Equals("save")) {
                 Console.WriteLine("Please enter a save name");
                 string saveName = Console.ReadLine();
-                SaveHandler.SaveGame(saveName, currentNodeId);
+                SaveHandler.SaveGame(saveName, currentNodeId, user);
                 return;
             }
             else if (input.Trim().ToLower().Equals("exit")) {
@@ -57,16 +63,21 @@ public static class GraphHelper{
             {
                 Console.WriteLine($"You chose option {choice}: {dialogNode.Options[choice - 1].Text}");
                 if (dialogNode.RollDice && dialogNode.Options[choice -1].Text == "Roll the dice") {
-                    if(RNGHelper() == -1) {
-                        TraverseDialog(dialogGraph, dialogNode.Options[choice - 1].Next + "_no");
+                    if(RNGHelper(user) == -1) {
+                        TraverseDialog(dialogGraph, dialogNode.Options[choice - 1].Next + "_no", user);
                         break;
                     }
                     else {
-                        TraverseDialog(dialogGraph, dialogNode.Options[choice - 1].Next + "_yes");
+                        TraverseDialog(dialogGraph, dialogNode.Options[choice - 1].Next + "_yes", user);
                         break;
                     }
                 }
-                TraverseDialog(dialogGraph, dialogNode.Options[choice - 1].Next);
+                else if (dialogNode.IsBagChecked && (dialogNode.Options[choice -1].Text == "Enter the door" || dialogNode.Options[choice -1].Text == "Leave the city")) {
+                    string nextNode = user.BagCheck ? dialogNode.Options[choice - 1].Next + "_yes" : dialogNode.Options[choice - 1].Next + "_no";
+                    TraverseDialog(dialogGraph, nextNode, user);
+                    break;
+                }
+                TraverseDialog(dialogGraph, dialogNode.Options[choice - 1].Next, user);
             }
             else
             {
@@ -75,10 +86,10 @@ public static class GraphHelper{
         }
     }
 
-    private static int RNGHelper() {
+    private static int RNGHelper(User user) {
         Random rng = new();
         int randomValue = rng.Next(1,20);
-        User.DiceRoll = randomValue;
+        user.DiceRoll = randomValue;
 
         Console.WriteLine($"You rolled a {randomValue}");
 
@@ -90,10 +101,10 @@ public static class GraphHelper{
         }
     }
 
-    private static string FormatText(string text) {
+    private static string FormatText(string text, User user) {
         Dictionary<string, string> variables = new () {
-            {"user", User.Username},
-            {"roll", User.DiceRoll.ToString()}
+            {"user", user.Username},
+            {"roll", user.DiceRoll.ToString()}
         };
 
         return Regex.Replace(text, @"\{(\w+)\}", match => {
